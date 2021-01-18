@@ -1,0 +1,88 @@
+.cityItem {
+  background: rgba(255, 255, 255, 0.562);
+  padding: 1vmax;
+  margin: 0 auto;
+  margin-bottom: 2vmax;
+  border-radius: 1vmax;
+}
+
+.infoWrapper {
+  display: flex;
+}
+.cityHeadingWrap {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.cityHeadingWrap h3 {
+  font-size: 2vmax;
+  padding: 0;
+  margin: 0;
+}
+button {
+  background: rgba(80, 212, 195, 0.7);
+  outline: none;
+  border: none;
+  padding: 0.5vmax 2vmax;
+  font-size: 2vmax;
+  color: rgba(255, 255, 255, 0.815);
+  border-radius: 0.5vmax;
+}
+button a {
+  text-decoration: none;
+  color: #ffff;
+}
+button:hover {
+  opacity: 0.7;
+  transition: opacity 200ms;
+  cursor: pointer;
+}
+.cityHeadingWrap img {
+  width: 5vmax;
+  height: 5vmax;
+  margin: 0;
+  padding: 0;
+}
+.cityHeadingWrap div {
+  width: 30%;
+  display: flex;
+
+  justify-content: space-between;
+}
+.cityHeadingWrap div button {
+  background: rgba(206, 118, 118, 0.7);
+  outline: none;
+  border: none;
+  padding: 0.5vmin 2vmin;
+  font-size: 2vmin;
+  color: rgba(255, 255, 255, 0.815);
+  border-radius: 0.5vmax;
+}
+.cityHeadingWrap div button:first-child {
+  background: rgba(32, 142, 202, 0.8);
+}
+
+.infoWrapper {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  width: 30%;
+  padding: 1vmax;
+  border-radius: 1vmax;
+}
+
+.infoWrapper h4 {
+  font-size: 4vmax;
+  padding: 0;
+  margin: 0;
+  color: rgb(92, 187, 166);
+  text-shadow: 2px 2px 0px rgba(31, 141, 201, 1);
+}
+
+.cityNameContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

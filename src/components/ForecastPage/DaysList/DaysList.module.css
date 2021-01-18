@@ -1,0 +1,11 @@
+.daysWrapper {
+  background: #fff;
+  padding: 1vmax;
+  border-radius: 1vmax;
+  margin-bottom: 2vmax;
+  display: flex;
+  justify-content: space-between;
+}
+.daysWrapper h3 {
+  font-size: 1.5vmax;
+}

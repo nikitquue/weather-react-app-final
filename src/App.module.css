@@ -1,0 +1,18 @@
+.App {
+  background: #fff;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.7)
+  );
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 2vmax;
+  border-radius: 1vmax;
+  padding: 1vmax;
+  margin-bottom: 2vmax;
+}
+
+.heading {
+  color: white;
+}

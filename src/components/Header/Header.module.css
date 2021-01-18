@@ -1,0 +1,24 @@
+.header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header div h1 a {
+  text-decoration: none;
+  color: rgb(92, 187, 166);
+  text-shadow: 0.3vmax 0.3vmax 0px rgba(31, 141, 201, 1);
+  font-size: 2vmax;
+}
+.header div {
+  display: flex;
+}
+.header div img {
+  width: 2vmax;
+  height: auto;
+}
+.header div:hover {
+  opacity: 0.6;
+  transition: opacity 300ms;
+}

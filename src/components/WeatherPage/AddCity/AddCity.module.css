@@ -1,0 +1,52 @@
+.addCity {
+  background: rgba(255, 255, 255, 0.562);
+  border-radius: 1vmax;
+  margin: 0 auto;
+  padding: 1vmax;
+  margin-bottom: 2vmax;
+}
+.addCity h2 {
+  font-size: 1.5vmax;
+}
+.searchField {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.searchField input {
+  margin-right: 2vmax;
+  width: 50%;
+  min-height: 2vmax;
+  font-size: 2vmax;
+  padding: 0.5vmax;
+  border-radius: 0.5vmax;
+  outline: none;
+  border: 0;
+  background: rgba(8, 39, 33, 0.247);
+}
+input::placeholder {
+  color: #0000;
+  opacity: 1;
+}
+.searchField button {
+  padding: 0.5vmax;
+  min-height: 2vmax;
+  border-radius: 0.5vmax;
+  font-size: 2vmax;
+  outline: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: rgba(32, 142, 202, 0.8);
+}
+.searchField button:hover {
+  cursor: pointer;
+  background: rgba(32, 142, 202, 0.4);
+  transition: opacity 200ms;
+}
+.searchField button:focus {
+  border: 2px solid grey;
+}
+.searchField input:focus {
+  border: 2px solid grey;
+}

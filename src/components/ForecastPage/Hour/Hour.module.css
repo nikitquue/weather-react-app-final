@@ -1,0 +1,17 @@
+.hourWrap {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3vmax;
+}
+.hourWrap .temperature {
+  padding: 1vmax;
+  /* margin-bottom: 5px; */
+  border-radius: 0.5vmax;
+  background: rgba(103, 208, 185, 0.8) 100%;
+  font-size: 1vmax;
+}
+
+.hourWrap .hour {
+  padding: 1vmax;
+  font-size: 1vmax;
+}
